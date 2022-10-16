@@ -1,3 +1,86 @@
-ul {
-  color: green;
+body{
+    margin: 0px;
 }
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+#nav a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 35px;
+    
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    text-align: center;
+}
+#searchcontainer{
+    text-align: center;
+    margin-top: 20px;
+
+}
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 30px;
+    outline: 0;
+    width: 500px;
+    border: 2px solid #1d1515;
+}
+
+#buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+#buttons div.button{
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px 12px;
+background-color: #ded9d9;
+border-radius: 20px;
+cursor: pointer;
+}
+#links{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#links a{
+    margin: 10px;
+}
+#footer{
+    background-color:rgb(184, 181, 181);
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#footer a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(27, 27, 27);
+    cursor: pointer;  
+}
+
